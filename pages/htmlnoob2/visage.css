@@ -1,0 +1,156 @@
+
+
+#visage {
+  border: solid black;
+  height: 600px;
+  width: 400px;
+  border-top-left-radius: 100% 60%;
+  border-top-right-radius: 100% 60%;
+  border-bottom-left-radius:100% 90%;
+  border-bottom-right-radius:100% 90%;
+  background-color: #FFDEAD;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+}
+
+#oeilgauche {
+  background-color: lightblue;
+  border: solid black 1px;
+  height:40px;
+  width: 70px;
+  border-bottom-left-radius: 100% 90%;
+  border-bottom-right-radius: 100% 90%;
+  border-top-left-radius:100% 90%;
+  border-top-right-radius:100% 90%;
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  left: 20%;
+  bottom:70%;
+  right: 80%;
+}
+
+#nez{
+  border: solid black 0.5px;
+  height: 100px;
+  width: 50px;
+  border-bottom-left-radius: 100% 40%;
+  border-bottom-right-radius: 100% 40%;
+  border-top-left-radius:100% 90%;
+  border-top-right-radius:100% 90%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+}
+
+#oeildroit {
+  background-color: lightblue;
+  border: solid black 1px;
+  height:40px;
+  width: 70px;
+  border-bottom-left-radius: 100% 90%;
+  border-bottom-right-radius: 100% 90%;
+  border-top-left-radius:100% 90%;
+  border-top-right-radius:100% 90%;
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  left: 65%;
+  bottom:70%;
+  right: 35%;
+}
+
+#bouche{
+  background-color: #CD5C5C;
+  border: solid black 1px;
+  height: 40px;
+  width: 70px;
+  border-bottom-left-radius: 100% 80%;
+  border-bottom-right-radius: 100% 80%;
+  position: absolute;
+  margin: auto;
+  top: 80%;
+  bottom:20%;
+  left:0;
+  right:0;
+}
+
+#pupilleD{
+  background-color: black;
+  border: solid black 1px;
+  height: 10px;
+  width: 10px;
+  border-radius: 60%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+}
+
+#pupilleG{
+  background-color: black;
+  border: solid black 1px;
+  height: 10px;
+  width: 10px;
+  border-radius: 60%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+}
+
+#visage:hover #oeilgauche {
+  height: 5px;
+  background-color: black;
+
+}
+
+#visage:hover #pupilleG {
+  height: 5px;
+  background-color: black;
+}
+
+#visage:hover #oeildroit {
+  height: 5px;
+  background-color: black;
+}
+
+#visage:hover #pupilleD {
+  height: 5px;
+  background-color: black;
+}
+
+#visage:hover #bouche {
+  height: 5px;
+  background-color: black;
+}
+
+#visage:active #bouche {
+  background-color: #CD5C5C;
+  border: solid black 1px;
+  height: 40px;
+  width: 110px;
+}
+
+#visage:active #oeildroit {
+  background-color: lightblue;
+  border: solid black 1px;
+  height:40px;
+  width: 70px;
+}
+
+#visage:active #pupilleD {
+  height: 10px;
+  background-color: black;
+}

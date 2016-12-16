@@ -1,0 +1,121 @@
+@font-face {
+font-family: "bkobiii";
+src: url(../font/bkobiii.ttf);
+}
+
+@font-face {
+  font-family: "Bungasai";
+  src: url(../font/Bungasai.ttf)
+}
+
+nav li {
+  display: inline;
+  padding:50px;
+  font-family: sans-serif;
+}
+
+ul{
+  padding-top: 1.5%;
+}
+
+
+
+li a {
+  text-decoration: none;
+  color: #DC143C;
+  font-size: 30px;
+  transition: 1s;
+}
+
+li a:hover{
+  background-color: rgba(220,20,50,0.5);
+  color:white;
+  transition: 1s;
+}
+
+nav{
+  height: 90px;
+  background-image: url("../Img/logo1.png");
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+body{
+  background-image: url(../Img/cityFlower.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*changer opacité photo de fond avec picasa sur l'autre pc*/
+}
+
+#div1 {
+  margin: auto;
+  height: 650px;
+  width: 500px;
+  background-color: rgba(255,255,255,0.5);
+  float: left;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+#div1 input, #div1 textarea, #div1 label {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#div1 input {
+  background-color: rgba(220,20,50,0.5);
+}
+
+#div1 input:hover{
+  background-color: rgba(255,255,255,0.5);
+  color:#DC143C;
+}
+
+input {
+  color: rgba(0,0,0,0.5);
+  height: 30px;
+  width: 300px;
+}
+
+label{
+  font-family: "bkobiii";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#div2{
+  margin: auto;
+  height: 650px;
+  width: auto;
+  background-color: rgba(255,255,255,0.5);
+  float: right;
+  margin-top: 2%;
+  margin-right: 15%;
+}
+
+img{
+  height: 325px;
+  width: auto;
+  margin-top:10%;
+  display: block;
+}
+
+h1{
+  font-family: "Bungasai";
+  color:rgba(0,0,0,0.5);
+  font-size: 50px;
+  font-family: "Bungasai";
+  text-align: center;
+}
+
+#div2 li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-family: "bkobiii";
+  font-weight: bold;
+}

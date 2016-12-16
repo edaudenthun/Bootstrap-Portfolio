@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+nav li {
+  color: white;
+  font-style: bold;
+  font-size: 20px;
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+li:hover {
+  background-color: white;
+  color:black;
+}
+
+li:active {
+  text-decoration:underline;
+}
+
+#header{
+  height: auto;
+  width: 800px;
+  padding: 20px;
+  text-align-last: center;
+  text-align: justify;
+  padding-left: 300px;
+  font-style: italic;
+}
+
+header h1 {
+  padding:30px;
+  padding-left: 570px;
+}
+
+header {
+  background-image: url(photomaquette/imgpokemon.jpg);
+  background-position: center;
+  height:280px;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+#div1 {
+  background-image: url(photomaquette/imagepokemon2.jpg);
+  background-position:center;
+  background-size: cover;
+  margin-top: 50px;
+  height: 350px;
+  width: 850px;
+  transition: 2s;
+}
+
+#div1:active, #div2:active {
+  height: 400px;
+  width: 900px;
+  transition: 2s;
+}
+
+#div1:active #div1bis, #div2:active #div2bis {
+  height: 0;
+  font-size: 0;
+  transition: 1s;
+}
+
+#div2 {
+  background-image: url(photomaquette/imagepokemon2.jpg);
+  background-position:center;
+  background-size: cover;
+  margin-top: 50px;
+  height: 350px;
+  width: 850px;
+  transition: 2s;
+  transform: scaleX(-1);
+}
+
+.contain{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contain2{
+  background-color: #5a5e6b;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#div3{
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  float: left;
+  margin-left: 30px;
+  background-image: url(photomaquette/imagepokemon2.jpg);
+  background-position: right;
+  background-size: 420px;
+}
+
+#div4 {
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+  margin-right: 30px;
+  background-image: url(photomaquette/imagepokemon2.jpg);
+  background-position: right;
+  background-size: 420px;
+  transform: scaleX(-1);
+}
+
+#div1bis{
+  height: 40px;
+  width: auto;
+  background-color: rgb(36,0,72);
+  color: white;
+  position: relative;
+  margin-top: 350px;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  transition: 1s;
+}
+
+#div2bis{
+  height: 40px;
+  width: auto;
+  background-color: rgb(36,0,72);
+  color: white;
+  position: relative;
+  margin-top: 350px;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  transform: scaleX(-1);
+  transition: 1s;
+}
+
+#div5{
+  margin: auto;
+  margin: 100px;
+  text-align-last: center;
+  text-align:justify;
+}
+
+.contain2 h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+
+.contain2 p{
+  font-style: italic;
+}
+
+#divfin{
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+  height: 20px;
+  margin: auto;
+  color: white;
+  transition: 1s;
+}
+
+p:hover{
+  color:white;
+  transition: 1.5s;
+}
+
+p{
+  transition: 1.5s;
+}
